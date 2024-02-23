@@ -1,0 +1,80 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background:url(DependencyResolution.jpg) no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  background: linear-gradient(45deg,tomato,orange);
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 2px solid;
+  top: 100px;
+  left: 250px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#task-input {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid;
+}
+
+label,input{
+  display: block;
+  margin-bottom: 10px;
+}
+
+input{
+  width: 20%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: 2px solid #000;
+  box-shadow: 2px 2px #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007bff;
+}
+
+#task-table {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 2px groove #222;
+}
+
+th, td {
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
